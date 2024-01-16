@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url(benjamin-cole-DDhET-updco-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* background-color: #eee; */
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    /* background-color: rgb(192, 192,192); */
+    width: 500px;
+    height: 250px;
+    padding: 24px;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#container > *{
+    flex-basis: 100%;
+}
+#heading{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+#btn{
+    color: #eee;
+    background-color: rgb(10, 150, 210);
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#randomQuote{
+    font-style: italic;
+    color: white;
+    letter-spacing: 0.05ch;
+    font-size: 14px;
+}
